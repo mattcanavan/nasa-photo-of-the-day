@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       
-      <CreatePhotoCard photoTitle={nasaObj.title} photoURL={nasaObj.url} />
+      <CreatePhotoCard photoTitle={nasaObj.title} photoURL={nasaObj.url} photoCopyright={nasaObj.copyright} photoExplanation={nasaObj.explanation}/>
       
       
       {/* <p>
